@@ -21,7 +21,8 @@ test {
 
 jar {
     manifest {
-        attributes "Main-Class": "com.gradle.tutorial.FizzBuzzProcessor"
+        attributes "Main-Class": "org.bcit.comp2522.labs.lab01.FizzBuzzProcessor"
+//        attributes "Main-Class": "com.gradle.tutorial.FizzBuzzProcessor"
     }
 
     from {
@@ -30,5 +31,5 @@ jar {
 }
 
 application {
-    mainClassName = 'com.gradle.tutorial.FizzBuzzProcessor'
+    mainClassName = 'org.bcit.comp2522.labs.lab01.FizzBuzzProcessor'
 }
